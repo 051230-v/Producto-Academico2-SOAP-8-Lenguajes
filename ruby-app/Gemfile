@@ -1,0 +1,14 @@
+source 'https://rubygems.org'
+
+# Servidor web para ejecutar las aplicaciones en el navegador
+gem 'sinatra'
+gem 'puma'
+
+# Cliente SOAP para consumir el servicio web (Versiones 1 y 2)
+gem 'savon'
+
+# Traduccion de ingles a espanol (Version 2)
+gem 'google_translate'
+
+# Conversion nativa de numeros a letras en espanol (Version 3)
+gem 'numbers_and_words'
